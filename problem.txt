@@ -1,0 +1,30 @@
+Backend Engineer HW Assignment
+
+This is a coding project that allows us to see and evaluate a concrete piece of your development work.
+
+Homework Assignment
+
+Create an application written in Scala using your favorite web application framework and data persistence store (e.g., MySQL, Postgres, Cassandra, etc.).
+
+The app should expose a normal REST API for creating and manipulating ‘tips’ and ‘comments’.
+
+A ‘tip’ shall consist of:
+id (unique)
+Message
+Username of submitter
+Any number of comments
+Time when tip was created
+Time when tip was last updated (comments update this)
+
+Architect and plan for this to run across many nodes all being hit simultaneously. 
+
+We have intentionally left many details of this assignment vague. You should follow the principle of least surprise in making reasonable decisions regarding the implementation.
+
+While this is a trivial assignment, pretend that this code will become a foundational part of a new
+LiveSafe product. Take whatever measures you feel are required for your code to meet this bar. We are not concerned with how quickly you complete this assignment. Take your time and “do it right.”
+
+Submission
+
+Please submit a link to a Github repository or provide the entire project directory as a b/gzipped tarball by replying all to this email. Be sure to include a README file in the project directory with full directions to get your project running.
+
+Finally, please reach out if you have any questions or need clarifications on the scope of the assignment.
