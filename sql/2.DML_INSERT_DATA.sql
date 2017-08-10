@@ -6,6 +6,7 @@ INSERT INTO tip (message, submitted_by)
 
 INSERT INTO comment (tip_id, message)
     VALUES
+       (1, 'You don’t have to be at your computer or use your cellphone’s mobile web to enter a sweepstakes. If you’re out and about and one strikes your fancy, you can just text to enter. Some contests even let you know within seconds if you’ve won.'),
        (2, 'You don’t have to be at your computer or use your cellphone’s mobile web to enter a sweepstakes. If you’re out and about and one strikes your fancy, you can just text to enter. Some contests even let you know within seconds if you’ve won.'),
        (2, 'Even if you don’t have email configured on your cell phone or the person’s phone you’re sending to, your mobile phone still has an email address that begins with the phone number.'),
        (3, 'With our email and text updates, we’ll keep you posted on rates, mortgage news, home tips and other great offers that can help you save.');

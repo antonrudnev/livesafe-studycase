@@ -4,7 +4,7 @@ POST    /tips        controllers.TipController.create
 PUT     /tips        controllers.TipController.update
 DELETE  /tips/:id    controllers.TipController.delete(id: Int)
 
-GET     /comments/all/:tipId    controllers.CommentController.index(tipId:Int)
+GET     /tips/:id/comments  controllers.CommentController.index(id:Int)
 GET     /comments/:id       controllers.CommentController.show(id: Int)
 POST    /comments           controllers.CommentController.create
 DELETE  /comments/:id       controllers.CommentController.delete(id: Int)
