@@ -1,0 +1,10 @@
+GET     /tips        controllers.TipController.index
+GET     /tips/:id    controllers.TipController.show(id: Int)
+POST    /tips        controllers.TipController.create
+PUT     /tips        controllers.TipController.update
+DELETE  /tips/:id    controllers.TipController.delete(id: Int)
+
+GET     /comments/all/:tipId    controllers.CommentController.index(tipId:Int)
+GET     /comments/:id       controllers.CommentController.show(id: Int)
+POST    /comments           controllers.CommentController.create
+DELETE  /comments/:id       controllers.CommentController.delete(id: Int)
