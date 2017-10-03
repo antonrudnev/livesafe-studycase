@@ -1,4 +1,4 @@
-# Testcase for the interview with LiveSafe
+# Studycase for the interview with LiveSafe
 
 Task is described in **problem.txt** file.
 
